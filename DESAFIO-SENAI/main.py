@@ -1,8 +1,7 @@
 import cadastro_usuario
 
-print("""\n==== PROGRAMA DE REGISTROS DE LIVROS ====\n""")
-
-inicializar = input(f"Bem-vindo(a). \nDigite 'y' para continuar: ")
+print("""\n==== PROGRAMA DE REGISTROS DE LIVROS ====\n--> Seja bem-vindo(a). <-- """)
+inicializar = input(f"\nDigite 'y' para continuar: ")
 
 def main():
     while True:
