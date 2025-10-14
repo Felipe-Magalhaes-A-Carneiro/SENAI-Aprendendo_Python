@@ -1,5 +1,3 @@
-import main
-
 registro = [
     {"usuario": "nome_usuario",
      "livro": "nome_livro",
@@ -19,7 +17,7 @@ def menu_cadastro():
         if opcao_usuario == "1":
             return cadastrar()
         else:
-            return main()
+            return # retorna para 
 
 
 def cadastrar():
@@ -46,7 +44,6 @@ def cadastrar():
             print(cadastro)
             print(registro)
     
-
 
 
 
