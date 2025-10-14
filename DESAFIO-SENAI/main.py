@@ -1,9 +1,9 @@
 import cadastro_usuario
 
-print("\n==== MENU DE REGISTROS DE LIVROS ====\n")
+print("""\n==== PROGRAMA DE REGISTROS DE LIVROS ====\n""")
 usos = 3
 
-escolha_menu = input(f"Bem-vindo(a). Digite 'y' para continuar: ")
+inicializar = input(f"Bem-vindo(a). \nDigite 'y' para continuar: ")
 
 def main():
     while usos != 0:
@@ -24,6 +24,7 @@ def main():
         elif escolha_menu == 3:
             print("Saindo do programa. Obrigado e volte sempre!")
             break
+        usos -= 1
 
-if escolha_menu == 'y':
+if inicializar == 'y':
     main()
