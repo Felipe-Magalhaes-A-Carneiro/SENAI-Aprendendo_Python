@@ -32,7 +32,7 @@ def main():
 
         elif escolha_menu == "3":
             print("Saindo do programa. Obrigado e volte sempre!")
-            break
+            exit()
 
 if inicializar == 'y':
     main() 
